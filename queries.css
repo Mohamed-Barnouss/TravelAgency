@@ -1,0 +1,103 @@
+@media (max-width: 62.5em) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 48.8125em) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+  /*Travel tags*/
+  .travels-tags {
+    width: 40rem;
+  }
+
+  .scroll {
+    font-size: 2rem;
+    position: absolute;
+    background-color: #026309;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+    transform: translateX(100%);
+    transition: 0.5s;
+    height: 90vh;
+    /*Make nav invisible*/
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .scroll {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+    transition: all 0.5s;
+    gap: 1rem;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  /*
+  .card {
+    width: 70%;
+  }
+*/
+
+  .icon-button {
+    display: block;
+  }
+
+  .travels-tags {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .ionic-icon[name="close-outline"] {
+    display: none;
+  }
+
+  .nav-open .ionic-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .ionic-icon[name="reorder-three-outline"] {
+    display: none;
+  }
+
+  /*About Us*/
+
+  .description {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-text {
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 36.5625rem) {
+  .travels-tags {
+    width: 23rem;
+  }
+
+  .contacts {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

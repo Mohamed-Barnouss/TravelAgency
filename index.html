@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css">
+    
+  </head>
+  <body>
+    <header >
+      <!--h2 da sostiture con un logo modificare poi il css-->
+      <h2>Agenzia viaggi</h2>
+      <nav class="scroll">
+        <a href="#about">About us</a>
+        <a href="#travel-destination">Travel destination</a>
+        <a href="#experience" >Experience</a>
+        <a href="#contact" >Contact Us</a>
+      </nav>
+      <button class="icon-button">
+        <ion-icon class="ionic-icon" name="reorder-three-outline"></ion-icon>
+        <ion-icon class="ionic-icon"  name="close-outline"></ion-icon>
+      </button>
+
+    </header>
+
+    <!--intro with background-->
+    <div class="presentation">
+
+      <div class="slogan">
+        <h1>Your next unforgettable adventure</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto
+          repudiandae neque saepe est adipisci similique consequuntur omnis
+          fugit tempora.
+        </p>
+      </div>
+    </div>
+
+    <!--About us section-->
+    <div id="about" class="about-us">
+      <!--Prima parte-->
+      <div class="description">
+        <img
+          class="about-img"
+          src="/image/aboutPhoto1.avif"
+          alt="photo"
+        />
+
+        <div class="about-text">
+          <h4 class="about-title">Memories you will never forget</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+            consectetur incidunt! Non aperiam rem architecto praesentium fugiat,
+            nostrum exercitationem ducimus atque accusantium nisi.
+          </p>
+        </div>
+      </div>
+
+      <!--Seconda parte-->
+      
+
+      <div class="description">
+        <div class="about-text">
+          <h4 class="about-title">Adventure for All</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+            consectetur incidunt! Non aperiam rem architecto praesentium fugiat,
+            nostrum exercitationem ducimus atque accusantium nisi.
+          </p>
+        </div>
+        <img
+          class="about-img"
+          src="/image/aboutPhoto2.avif"
+          alt="photo"
+        />
+      </div>
+
+      <!--Terza parte-->
+      <div class="description">
+        <img
+          class="about-img"
+          src="/image/aboutPhoto3.avif"
+          alt="photo"
+        />
+        <div class="about-text">
+          <h4 class="about-title">
+            Personalized experience</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+            consectetur incidunt! Non aperiam rem architecto praesentium fugiat,
+            nostrum exercitationem ducimus atque accusantium nisi.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--TRAVEL DESTINATIO-->
+    <div class="travel-destination-box" id="travel-destination">
+      <div class="shaped-div">
+        <ul class="travels-tags">
+          <li><button class="destinations-btn all-btn btn-clicked ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"
+              />
+            </svg>
+            <p class="travels-titles">All</p>
+          </button>
+          </li>
+          <li><button class="destinations-btn africa-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M177.8 63.2l10 17.4c2.8 4.8 4.2 10.3 4.2 15.9v41.4c0 3.9 1.6 7.7 4.3 10.4c6.2 6.2 16.5 5.7 22-1.2l13.6-17c4.7-5.9 12.9-7.7 19.6-4.3l15.2 7.6c3.4 1.7 7.2 2.6 11 2.6c6.5 0 12.8-2.6 17.4-7.2l3.9-3.9c2.9-2.9 7.3-3.6 11-1.8l29.2 14.6c7.8 3.9 12.6 11.8 12.6 20.5c0 10.5-7.1 19.6-17.3 22.2l-35.4 8.8c-7.4 1.8-15.1 1.5-22.4-.9l-32-10.7c-3.3-1.1-6.7-1.7-10.2-1.7c-7 0-13.8 2.3-19.4 6.5L176 212c-10.1 7.6-16 19.4-16 32v28c0 26.5 21.5 48 48 48h32c8.8 0 16 7.2 16 16v48c0 17.7 14.3 32 32 32c10.1 0 19.6-4.7 25.6-12.8l25.6-34.1c8.3-11.1 12.8-24.6 12.8-38.4V318.6c0-3.9 2.6-7.3 6.4-8.2l5.3-1.3c11.9-3 20.3-13.7 20.3-26c0-7.1-2.8-13.9-7.8-18.9l-33.5-33.5c-3.7-3.7-3.7-9.7 0-13.4c5.7-5.7 14.1-7.7 21.8-5.1l14.1 4.7c12.3 4.1 25.7-1.5 31.5-13c3.5-7 11.2-10.8 18.9-9.2l27.4 5.5C432 112.4 351.5 48 256 48c-27.7 0-54 5.4-78.2 15.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"
+              />
+            </svg>
+            <p class="travels-titles">Africa</p>
+          </button>
+          </li>
+          <li><button class="destinations-btn america-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"
+              />
+            </svg>
+            <p class="travels-titles">Americas</p>
+          </button>
+          </li>
+          <li><button class="destinations-btn asia-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M51.7 295.1l31.7 6.3c7.9 1.6 16-.9 21.7-6.6l15.4-15.4c11.6-11.6 31.1-8.4 38.4 6.2l9.3 18.5c4.8 9.6 14.6 15.7 25.4 15.7c15.2 0 26.1-14.6 21.7-29.2l-6-19.9c-4.6-15.4 6.9-30.9 23-30.9h2.3c13.4 0 25.9-6.7 33.3-17.8l10.7-16.1c5.6-8.5 5.3-19.6-.8-27.7l-16.1-21.5c-10.3-13.7-3.3-33.5 13.4-37.7l17-4.3c7.5-1.9 13.6-7.2 16.5-14.4l16.4-40.9C303.4 52.1 280.2 48 256 48C141.1 48 48 141.1 48 256c0 13.4 1.3 26.5 3.7 39.1zm407.7 4.6c-3-.3-6-.1-9 .8l-15.8 4.4c-6.7 1.9-13.8-.9-17.5-6.7l-2-3.1c-6-9.4-16.4-15.1-27.6-15.1s-21.6 5.7-27.6 15.1l-6.1 9.5c-1.4 2.2-3.4 4.1-5.7 5.3L312 330.1c-18.1 10.1-25.5 32.4-17 51.3l5.5 12.4c8.6 19.2 30.7 28.5 50.5 21.1l2.6-1c10-3.7 21.3-2.2 29.9 4.1l1.5 1.1c37.2-29.5 64.1-71.4 74.4-119.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm144.5 92.1c-2.1 8.6 3.1 17.3 11.6 19.4l32 8c8.6 2.1 17.3-3.1 19.4-11.6s-3.1-17.3-11.6-19.4l-32-8c-8.6-2.1-17.3 3.1-19.4 11.6zm92-20c-2.1 8.6 3.1 17.3 11.6 19.4s17.3-3.1 19.4-11.6l8-32c2.1-8.6-3.1-17.3-11.6-19.4s-17.3 3.1-19.4 11.6l-8 32zM343.2 113.7c-7.9-4-17.5-.7-21.5 7.2l-16 32c-4 7.9-.7 17.5 7.2 21.5s17.5 .7 21.5-7.2l16-32c4-7.9 .7-17.5-7.2-21.5z"
+              />
+            </svg>
+            <p class="travels-titles">Asia</p>
+          </button>
+          </li>
+          <li><button class="destinations-btn europe-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M266.3 48.3L232.5 73.6c-5.4 4-8.5 10.4-8.5 17.1v9.1c0 6.8 5.5 12.3 12.3 12.3c2.4 0 4.8-.7 6.8-2.1l41.8-27.9c2-1.3 4.4-2.1 6.8-2.1h1c6.2 0 11.3 5.1 11.3 11.3c0 3-1.2 5.9-3.3 8l-19.9 19.9c-5.8 5.8-12.9 10.2-20.7 12.8l-26.5 8.8c-5.8 1.9-9.6 7.3-9.6 13.4c0 3.7-1.5 7.3-4.1 10l-17.9 17.9c-6.4 6.4-9.9 15-9.9 24v4.3c0 16.4 13.6 29.7 29.9 29.7c11 0 21.2-6.2 26.1-16l4-8.1c2.4-4.8 7.4-7.9 12.8-7.9c4.5 0 8.7 2.1 11.4 5.7l16.3 21.7c2.1 2.9 5.5 4.5 9.1 4.5c8.4 0 13.9-8.9 10.1-16.4l-1.1-2.3c-3.5-7 0-15.5 7.5-18l21.2-7.1c7.6-2.5 12.7-9.6 12.7-17.6c0-10.3 8.3-18.6 18.6-18.6H400c8.8 0 16 7.2 16 16s-7.2 16-16 16H379.3c-7.2 0-14.2 2.9-19.3 8l-4.7 4.7c-2.1 2.1-3.3 5-3.3 8c0 6.2 5.1 11.3 11.3 11.3h11.3c6 0 11.8 2.4 16 6.6l6.5 6.5c1.8 1.8 2.8 4.3 2.8 6.8s-1 5-2.8 6.8l-7.5 7.5C386 262 384 266.9 384 272s2 10 5.7 13.7L408 304c10.2 10.2 24.1 16 38.6 16H454c6.5-20.2 10-41.7 10-64c0-111.4-87.6-202.4-197.7-207.7zm172 307.9c-3.7-2.6-8.2-4.1-13-4.1c-6 0-11.8-2.4-16-6.6L396 332c-7.7-7.7-18-12-28.9-12c-9.7 0-19.2-3.5-26.6-9.8L314 287.4c-11.6-9.9-26.4-15.4-41.7-15.4H251.4c-12.6 0-25 3.7-35.5 10.7L188.5 301c-17.8 11.9-28.5 31.9-28.5 53.3v3.2c0 17 6.7 33.3 18.7 45.3l16 16c8.5 8.5 20 13.3 32 13.3H248c13.3 0 24 10.7 24 24c0 2.5 .4 5 1.1 7.3c71.3-5.8 132.5-47.6 165.2-107.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM187.3 100.7c-6.2-6.2-16.4-6.2-22.6 0l-32 32c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l32-32c6.2-6.2 6.2-16.4 0-22.6z"
+              />
+            </svg>
+            <p class="travels-titles">Europe</p>
+          </button>
+          </li>
+          <li><button class="destinations-btn oceania-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM208.6 357.3l-39-13.5c-6.5-2.2-13.6-2.3-20.1-.3l-15.3 4.9c-18.5 5.9-38.5-2.4-47.5-19.5l-3.3-6.2c-10.6-20.1-2.3-45 18.2-54.7l35.3-16.8c2.3-1.1 4.4-2.8 5.9-4.8l5.3-7c7.2-9.6 18.6-15.3 30.6-15.3s23.4 5.7 30.6 15.3l4.6 6.1c2 2.6 4.9 4.5 8.1 5.1c7.8 1.6 15.7-1.5 20.4-7.9l10.4-14.2c2-2.8 5.3-4.4 8.7-4.4c4.4 0 8.4 2.7 10 6.8l10.1 25.9c2.8 7.2 6.7 14 11.5 20.2L311 299.8c5.8 7.4 9 16.6 9 26s-3.2 18.6-9 26L299 367.2c-8.3 10.6-21 16.8-34.4 16.8c-8.4 0-16.6-2.4-23.7-7l-25.4-16.4c-2.2-1.4-4.5-2.5-6.9-3.4zm65.2-214.8L296 164.7c10.1 10.1 2.9 27.3-11.3 27.3H254.8c-5.6 0-11.1-1.2-16.2-3.4l-42.8-19c-14.3-6.3-11.9-27.3 3.4-30.3l38.5-7.7c13.1-2.6 26.7 1.5 36.1 10.9zM248 432c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16s-7.2 16-16 16H264c-8.8 0-16-7.2-16-16zM431.2 298.9l8 24c2.8 8.4-1.7 17.4-10.1 20.2s-17.4-1.7-20.2-10.1l-8-24c-2.8-8.4 1.7-17.4 10.1-20.2s17.4 1.7 20.2 10.1zm-19.9 80.4l-32 32c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l32-32c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z"
+              />
+            </svg>
+            <p class="travels-titles">Oceania</p>
+          </button>
+          </li>
+        </ul>
+      </div>
+
+      <!--TRAVEL CARDS SECTIONS-->
+      <div class="grid-3" >
+        <div class="card africa">
+          <img
+            src="/image/photo1.avif"
+            class="img-card"
+            alt="4x4 car in the savana"
+          />
+          <h3 class="card-title">Namibia safari</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi
+            nemo esse maxime sit perspiciatis, maiores libero voluptates eum
+            adipisci id fuga offi.
+          </p>
+          <p class="include-text"><strong>What includes:</strong></p>
+          <p></p>
+          <ul class="card-list">
+            <li>Flights</li>
+            <li>Food</li>
+            <li>Tours</li>
+            <li>Activities</li>
+          </ul>
+          <p class="card-price">4000$</p>
+          <div class="flex-row">
+            <button class="card-btn namibia-btn">More info</button>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+
+        <!--CHINA CARD-->
+        <div class="card asia">
+          <img src="/image/photo2.avif" alt="montains view" class="img-card" />
+          <h3 class="card-title">Estern China</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi
+            nemo esse maxime sit perspiciatis, maiores libero voluptates eum
+            adipisci id fuga offi.
+          </p>
+          <p class="include-text"><strong>What includes:</strong></p>
+          <p></p>
+          <ul class="card-list">
+            <li>Flights</li>
+            <li>Food</li>
+            <li>Tours</li>
+            <li>Activities</li>
+          </ul>
+          <p class="card-price">4000$</p>
+          <div class="flex-row">
+            <button class="card-btn china-btn">More info</button>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+<!--gran canyon-->
+        <div class="card america">
+          <img src="/image/photo3.avif" class="img-card" />
+          <h3 class="card-title">Gran Canyon</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi
+            nemo esse maxime sit perspiciatis, maiores libero voluptates eum
+            adipisci id fuga offi.
+          </p>
+          <p class="include-text"><strong>What includes:</strong></p>
+          <p></p>
+          <ul class="card-list">
+            <li>Flights</li>
+            <li>Food</li>
+            <li>Tours</li>
+            <li>Activities</li>
+          </ul>
+          <p class="card-price">5000$</p>
+          <div class="flex-row">
+            <button class="card-btn canyon-btn">More info</button>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+<!--ICELAND-->
+        <div class="card europe">
+          <img src="/image/photo4.avif" class="img-card" />
+          <h3 class="card-title">Iceland</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi
+            nemo esse maxime sit perspiciatis, maiores libero voluptates eum
+            adipisci id fuga offi.
+          </p>
+          <p class="include-text"><strong>What includes:</strong></p>
+          <p></p>
+          <ul class="card-list">
+            <li>Flights</li>
+            <li>Food</li>
+            <li>Tours</li>
+            <li>Activities</li>
+          </ul>
+          <p class="card-price">2500$</p>
+          <div class="flex-row">
+            <button class="card-btn iceland-btn">More info</button>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+<!--SVALBARD-->
+        <div class="card europe">
+          <img src="/image/photo5.avif" class="img-card" />
+          <h3 class="card-title">Svalbard</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi
+            nemo esse maxime sit perspiciatis, maiores libero voluptates eum
+            adipisci id fuga offi.
+          </p>
+          <p class="include-text"><strong>What includes:</strong></p>
+          <p></p>
+          <ul class="card-list">
+            <li>Flights</li>
+            <li>Food</li>
+            <li>Tours</li>
+            <li>Activities</li>
+          </ul>
+          <p class="card-price">5000$</p>
+          <div class="flex-row">
+            <button class="card-btn svalbard-btn">More info</button>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+<!--AUSTRALIA-->
+        <div class="card oceania">
+          <img src="/image/photo6.avif" class="img-card" />
+          <h3 class="card-title">Australia</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi
+            nemo esse maxime sit perspiciatis, maiores libero voluptates eum
+            adipisci id fuga offi.
+          </p>
+          <p class="include-text"><strong>What includes:</strong></p>
+          <p></p>
+          <ul class="card-list">
+            <li>Flights</li>
+            <li>Food</li>
+            <li>Tours</li>
+            <li>Activities</li>
+          </ul>
+          <p class="card-price">6000$</p>
+          <div class="flex-row">
+            <button class="card-btn australia-btn">More info</button>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+<!--PATAGONIA-->
+        <div class="card america">
+          <img src="/image/photo7.avif" class="img-card" />
+          <h3 class="card-title">Patagonia</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi
+            nemo esse maxime sit perspiciatis, maiores libero voluptates eum
+            adipisci id fuga offi.
+          </p>
+          <p class="include-text"><strong>What includes:</strong></p>
+          <p></p>
+          <ul class="card-list">
+            <li>Flights</li>
+            <li>Food</li>
+            <li>Tours</li>
+            <li>Activities</li>
+          </ul>
+          <p class="card-price">5500$</p>
+          <div class="flex-row">
+            <button class="card-btn patagonia-btn">More info</button>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+      </div>
+      <!--MODALE-->
+
+      <div class="hidden namibia card-hide">
+      <div class='description-box modal'>
+        <!--
+        <div class='img-list'>
+          
+            <img src="https://images.unsplash.com/photo-1515914560649-8fe5d631aa62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHNhZmFyaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="hotel and giraf">
+            <img src="https://images.unsplash.com/photo-1563985336376-568060942b80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80" alt="desert and ocean">
+            <img src="https://images.unsplash.com/photo-1577097049928-d86f895bd257?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fE9rYXZhbmdvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="crocodile">   
+        </div>
+        -->
+        <div class='modal-text'>
+          <h1>Namidia safari</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus, molestiae, sint a officia quaerat aliquam voluptatum dolorum ipsam error accusamus excepturi ut animi in ipsum. Obcaecati debitis sit est!</p>
+          <p>
+            Activities:
+          <ul>
+            <li>Safari</li>
+            <li>Resort</li>
+            <li>Camping</li>
+          </ul>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus cumque veniam quod sint perferendis atque labore ab pariatur repellendus, dicta ipsa, minus possimus voluptate accusamus animi, iusto sunt enim culpa?
+          </p>
+          <button class="card-btn-book">Book</button>
+        </div>
+      </div>
+      </div>
+
+      <!--ESTERN CHINA-->
+      <div class="hidden china card-hide">
+        <div class='description-box modal'>
+          <!--
+          <div class='img-list'>
+            <img src='/image/photo2a.avif' alt="hotel and giraf">
+            <img src="/image/photo2b.avif" alt="desert and ocean">
+            <img src="/image/photo2c.avif" alt="crocodile">
+          </div>
+          -->
+          <div class='modal-text'>
+            <h1>China</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus, molestiae, sint a officia quaerat aliquam voluptatum dolorum ipsam error accusamus excepturi ut animi in ipsum. Obcaecati debitis sit est!</p>
+            <p>
+              Activities:
+            <ul>
+              <li>Flight</li>
+              <li>Resort</li>
+              <li>Camping</li>
+            </ul>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus cumque veniam quod sint perferendis atque labore ab pariatur repellendus, dicta ipsa, minus possimus voluptate accusamus animi, iusto sunt enim culpa?
+            </p>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+        </div>
+
+         <!--Gran Canyon-->
+      <div class="hidden canyon card-hide">
+        <div class='description-box modal'>
+          <!--
+          <div class='img-list'>
+            <img src='/image/photo3a.avif' alt="hotel and giraf">
+            <img src="/image/photo3b.avif" alt="desert and ocean">
+            <img src="/image/photo3c.avif" alt="crocodile">
+          </div>
+          -->
+          <div class='modal-text'>
+            <h1>Gran Canyon</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus, molestiae, sint a officia quaerat aliquam voluptatum dolorum ipsam error accusamus excepturi ut animi in ipsum. Obcaecati debitis sit est!</p>
+            <p>
+              Activities:
+            <ul>
+              <li>flight</li>
+              <li>Resort</li>
+              <li>Camping</li>
+            </ul>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus cumque veniam quod sint perferendis atque labore ab pariatur repellendus, dicta ipsa, minus possimus voluptate accusamus animi, iusto sunt enim culpa?
+            </p>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+        </div>
+
+         <!--ICELAND-->
+      <div class="hidden iceland card-hide">
+        <div class='description-box modal'>
+          <!--
+          <div class='img-list'>
+            <img src='/image/photo4a.avif' alt="hotel and giraf">
+            <img src="/image/photo4b.avif" alt="desert and ocean">
+            <img src="/image/photo4c.avif" alt="crocodile">
+          </div>
+        -->
+          <div class='modal-text'>
+            <h1>Iceland</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus, molestiae, sint a officia quaerat aliquam voluptatum dolorum ipsam error accusamus excepturi ut animi in ipsum. Obcaecati debitis sit est!</p>
+            <p>
+              Activities:
+            <ul>
+              <li>Flight</li>
+              <li>Resort</li>
+              <li>Camping</li>
+            </ul>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus cumque veniam quod sint perferendis atque labore ab pariatur repellendus, dicta ipsa, minus possimus voluptate accusamus animi, iusto sunt enim culpa?
+            </p>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+        </div>
+
+         <!--SVALBARD-->
+      <div class="hidden svalbard card-hide">
+        <div class='description-box modal'>
+          <!--
+          <div class='img-list'>
+            <img src='/image/photo5a.avif' alt="hotel and giraf">
+            <img src="/image/photo5b.avif" alt="desert and ocean">
+            <img src="/image/photo5c.avif" alt="crocodile">
+          </div>
+        -->
+          <div class='modal-text'>
+            <h1>Svalbard</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus, molestiae, sint a officia quaerat aliquam voluptatum dolorum ipsam error accusamus excepturi ut animi in ipsum. Obcaecati debitis sit est!</p>
+            <p>
+              Activities:
+            <ul>
+              <li>Flight</li>
+              <li>Resort</li>
+              <li>Camping</li>
+            </ul>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus cumque veniam quod sint perferendis atque labore ab pariatur repellendus, dicta ipsa, minus possimus voluptate accusamus animi, iusto sunt enim culpa?
+            </p>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+        </div>
+
+
+         <!--AUSTRALIA-->
+      <div class="hidden australia card-hide">
+        <div class='description-box modal'>
+          <!--
+          <div class='img-list'>
+            <img src='/image/photo6a.avif' alt="hotel and giraf">
+            <img src="/image/photo6b.avif" alt="desert and ocean">
+            <img src="/image/photo6c.avif" alt="crocodile">
+          </div>
+        -->
+          <div class='modal-text'>
+            <h1>Australia</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus, molestiae, sint a officia quaerat aliquam voluptatum dolorum ipsam error accusamus excepturi ut animi in ipsum. Obcaecati debitis sit est!</p>
+            <p>
+              Activities:
+            <ul>
+              <li>Flight</li>
+              <li>Resort</li>
+              <li>Camping</li>
+            </ul>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus cumque veniam quod sint perferendis atque labore ab pariatur repellendus, dicta ipsa, minus possimus voluptate accusamus animi, iusto sunt enim culpa?
+            </p>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+        </div>
+
+         <!--PATAGONIA-->
+      <div class="hidden patagonia card-hide">
+        <div class='description-box modal'>
+          <!--
+          <div class='img-list'>
+            <img src='/image/photo7a.avif' alt="hotel and giraf">
+            <img src="/image/photo7b.avif" alt="desert and ocean">
+            <img src="/image/photo7c.avif" alt="crocodile">
+          </div>
+        -->
+          <div class='modal-text'>
+            <h1>Patagonia</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus, molestiae, sint a officia quaerat aliquam voluptatum dolorum ipsam error accusamus excepturi ut animi in ipsum. Obcaecati debitis sit est!</p>
+            <p>
+              Activities:
+            <ul>
+              <li>Flight</li>
+              <li>Resort</li>
+              <li>Camping</li>
+            </ul>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus cumque veniam quod sint perferendis atque labore ab pariatur repellendus, dicta ipsa, minus possimus voluptate accusamus animi, iusto sunt enim culpa?
+            </p>
+            <button class="card-btn-book">Book</button>
+          </div>
+        </div>
+        </div>
+
+<!--OVERLAY-->
+      <div class="overlay hidden"></div>
+
+    </div>
+
+    <!--CLIENT REVIEW-->
+    <div class="grid-3 client-review" id="experience">
+      <div class="review-box">
+        <p class="clients-texts">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+          malesuada libero, at blandit tellus. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Maecenas
+          maximus ex eget nisl facilisis sagittis.
+        </p>
+        <p class="client-name">Mario Rossi</p>
+        <img
+          class="img-client"
+          src="/image/selfie.avif"
+          alt="selfie"
+        />
+      </div>
+
+      <div class="review-box">
+        <p class="clients-texts">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+          malesuada libero, at blandit tellus. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Maecenas
+          maximus ex eget nisl facilisis sagittis.
+        </p>
+        <p class="client-name">Mario Rossi</p>
+        <img
+          class="img-client"
+          src="/image/selfie.avif"
+          alt="selfie"
+        />
+      </div>
+
+      <div class="review-box">
+        <p class="clients-texts">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+          malesuada libero, at blandit tellus. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Maecenas
+          maximus ex eget nisl facilisis sagittis.
+        </p>
+        <p class="client-name">Mario Rossi</p>
+        <img
+          class="img-client"
+          src="/image/selfie.avif"
+          alt="selfie"
+        />
+      </div>
+    </div>
+    <!--CONTACT US FORM-->
+    <div class="form-area" id="contact">
+      <form action="#">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+        <textarea rows="10" cols="50" required></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!--CONTACT US-->
+    <div class='contacts'>
+      <div class:'contacts-links'>
+        <a href="05365322453">Telefone number: 05365322453</a>
+      </div>
+      
+      <div class:'contacts-links'>
+       <a href="mailto:someone@yoursite.com">Email Us</a>
+      </div>
+      
+      <div><p>Adress: Milano Italy</p></div>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
